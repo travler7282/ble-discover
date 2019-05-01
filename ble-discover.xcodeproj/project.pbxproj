@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D5B2EED22795CC80052EA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B2EEC22795CC80052EA3E /* AppDelegate.swift */; };
-		8D5B2EEF22795CC80052EA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B2EEE22795CC80052EA3E /* ViewController.swift */; };
+		8D5B2EEF22795CC80052EA3E /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B2EEE22795CC80052EA3E /* DiscoverVC.swift */; };
 		8D5B2EF222795CC80052EA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B2EF022795CC80052EA3E /* Main.storyboard */; };
 		8D5B2EF522795CC80052EA3E /* ble_discover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B2EF322795CC80052EA3E /* ble_discover.xcdatamodeld */; };
 		8D5B2EF722795CC90052EA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B2EF622795CC90052EA3E /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		8D5B2EE922795CC80052EA3E /* ble-discover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ble-discover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B2EEC22795CC80052EA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D5B2EEE22795CC80052EA3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D5B2EEE22795CC80052EA3E /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
 		8D5B2EF122795CC80052EA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D5B2EF422795CC80052EA3E /* ble_discover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ble_discover.xcdatamodel; sourceTree = "<group>"; };
 		8D5B2EF622795CC90052EA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				8D5B2EEC22795CC80052EA3E /* AppDelegate.swift */,
-				8D5B2EEE22795CC80052EA3E /* ViewController.swift */,
+				8D5B2EEE22795CC80052EA3E /* DiscoverVC.swift */,
 				8D5B2EF022795CC80052EA3E /* Main.storyboard */,
 				8D5B2EF622795CC90052EA3E /* Assets.xcassets */,
 				8D5B2EF822795CC90052EA3E /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B2EF522795CC80052EA3E /* ble_discover.xcdatamodeld in Sources */,
-				8D5B2EEF22795CC80052EA3E /* ViewController.swift in Sources */,
+				8D5B2EEF22795CC80052EA3E /* DiscoverVC.swift in Sources */,
 				8D5B2EED22795CC80052EA3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
